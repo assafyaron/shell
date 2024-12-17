@@ -119,7 +119,7 @@ The program makes extensive use of the following **system calls** and **signals*
 
 1. Compile the program (see [Compilation Instructions](#6-compilation-instructions)).  
 2. Run the shell:  
-   ./shell
+   ./myshell
    
 3. Enter commands. Examples:
    - Regular command: ls -l  
@@ -136,7 +136,7 @@ The program makes extensive use of the following **system calls** and **signals*
 
 To compile the shell, use the following command:
 
-gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 shell.c myshell.c
+gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 shell.c myshell.c -o myshell
 
 ---
 
