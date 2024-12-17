@@ -1,6 +1,6 @@
 # Mini Shell
 
-**Author:** [Assaf Yaron]  
+**Author:** Assaf Yaron
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## Overview
 
-This program implements a **Mini Shell** that supports fundamental shell functionalities, including:
+This program implements a **Mini Shell** on **linux OS** that supports fundamental shell functionalities, including:
 
 - Running commands (e.g: ls, sleep 5)  
 - Executing commands in the **background** (e.g: sleep 5 &)  
@@ -116,6 +116,8 @@ The program makes extensive use of the following **system calls** and **signals*
 ---
 
 ## Usage
+
+**Make sure you are using linux OS or VM**
 
 1. Compile the program (see [Compilation Instructions](#6-compilation-instructions)).  
 2. Run the shell:  
