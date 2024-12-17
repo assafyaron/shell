@@ -14,7 +14,6 @@
 6. [Compilation Instructions](#compilation-instructions)  
 7. [Error Handling](#error-handling)  
 8. [Design Choices](#design-choices)  
-9. [References](#references)  
 
 ---
 
@@ -165,11 +164,4 @@ The program handles errors gracefully:
 ## 8. Design Choices
 
 - **Single Fork:** Background processes are handled using one `fork`.  
-- **Pipe Abstraction:** Reuses `arglist` to avoid extra memory allocation.  
-
----
-
-## 9. References
-
-- **System Calls:** Linux man pages.  
-- **Debugging Tools:** `strace`.  
+- **Pipe Abstraction:** Reuses `arglist` to avoid extra memory allocation.    
